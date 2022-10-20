@@ -1,0 +1,17 @@
+.divider {
+    border-color: black;
+    border-width: 3px;
+    margin-left: -100%;
+    width: 1000%;
+}
+
+.welcome {
+    position: absolute;
+    left: 0%;
+    width: 110%;
+    font-size: large;
+    padding-left: 40%;
+    font-weight: 800;
+    background-color: rgb(165, 57, 57);
+    color: white;
+}
