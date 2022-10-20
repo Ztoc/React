@@ -1,0 +1,83 @@
+.active {
+    opacity: 1;
+    background: none !important;
+    border: none;
+    width: 50px;
+}
+
+.disable {
+    opacity: 0.3;
+    background: none;
+    border: none;
+    width: 50px;
+}
+
+select {
+    border: none;
+}
+
+.busket {
+    z-index: 2;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border-color: rgb(230, 224, 224);
+    background-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    max-height: 450%;
+    opacity: 1;
+    transition: visibility 2s, opacity 1s;
+}
+
+.ba {
+    max-height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.basket {
+    background-color: white;
+    border: 2px solid #e7e7e7;
+}
+
+.express {
+    border: 2px solid rgb(196, 188, 188);
+    border-radius: 5px;
+    position: relative;
+}
+
+.head {
+    position: absolute;
+    top: -15%;
+    background-color: white;
+    padding: 0 1rem;
+    left: 30%;
+}
+
+.pay {
+    border-radius: 5px;
+    border: 2px white solid;
+}
+
+.or {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(211, 201, 201);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.help {
+    top: 30%;
+    right: 1%
+}
+
+.product-list {
+    background-color: #fffcfc;
+    border-left: 2px rgb(235, 229, 229) solid
+}
+
+.return {
+    cursor: pointer
+}
